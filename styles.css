@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 { 
+    padding-top: 20rem;
+    text-align: center;
+    font-size: 10rem;
+}
+
+.array {
+    display: flex;
+    position: absolute;
+    gap: .2rem;
+    bottom: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.bar {
+    width: 17px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+
+}
